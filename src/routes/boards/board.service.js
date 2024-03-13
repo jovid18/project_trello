@@ -1,6 +1,7 @@
 import * as boardRepository from './board.repository.js';
 //aaaa
 //bbbb
+//ccccasdasdasdjnwgfandlsfnjekw
 export const joinBoard = async (boardCode) => {
   const board = await boardRepository.findBoardByCode(boardCode);
   if (!board) {
